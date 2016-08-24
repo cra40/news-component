@@ -8,4 +8,4 @@ import NewsComponent from './components/news-component';
 
 require('../styles/components/news-component.scss');
 
-ReactDOM.render(<NewsComponent url="http://localhost:8080/newsFeed" />, window.container);
+ReactDOM.render(<NewsComponent url="http://10.23.213.246:8080/newsFeed" />, window.container);
