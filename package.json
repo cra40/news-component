@@ -2,8 +2,8 @@
   "name": "blackjack-component-news-component",
   "version": "0.0.1",
   "description": "A blackjack component.",
-  "main": "src/components/news-component.js",
-  "files": ["src", "dist"],
+  "main": "dist/bundle.js",
+  "files": ["src", "dist", "styles"],
   "scripts": {
     "test": "blackjack test",
     "preview": "blackjack preview"
