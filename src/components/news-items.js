@@ -20,11 +20,9 @@ class NewsItems extends React.Component {
             dataType: 'json',
             cache: false,
             success: function (data) {
-                console.log('Setting State');
-                console.log(data);
-                console.log(this);
+                console.log('Setting state from news API');
                 this.setState({data: data});
-                console.log('completed seting state');
+                console.log('Completed setting state from news API');
             }.bind(component),
             error: function (xhr, status, err) {
                 console.error(this.props.url, status, err.toString());
@@ -40,7 +38,6 @@ class NewsItems extends React.Component {
         for (var i=0; i<this.state.data.length; i++)
         {
             var item = this.state.data[i];
-            console.log(item);
             children.push(<NewsItem headline={item.headline} body={item.body} />);
         }
 
