@@ -1,0 +1,27 @@
+{
+  "name": "blackjack-component-news-component",
+  "version": "0.0.1",
+  "description": "A blackjack component.",
+  "main": "src/components/news-component.js",
+  "files": ["src", "dist"],
+  "scripts": {
+    "test": "blackjack test",
+    "preview": "blackjack preview"
+  },
+  "author": "Sky UK",
+  "license": "BSD-3-Clause",
+  "peerDependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  },
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "sky-toolkit": "github:sky-uk/toolkit"
+  },
+  "blackjack": {
+    "name": "NewsComponent",
+    "preview": "src/preview.js",
+    "index": "src/index.js"
+  }
+}
